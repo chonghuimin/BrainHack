@@ -1,0 +1,24 @@
+#english {
+  background-color: #F24C4E;
+}
+
+#chinese {
+  background-color: #E4B126;
+}
+
+#malay {
+  background-color: #1FB58F;
+}
+
+#tamil {
+  background-color: #1B7B34;
+}
+
+#container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  -ms-transform: translate(-50%, 50%);
+  width: 80%;
+}
