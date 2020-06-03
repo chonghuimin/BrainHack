@@ -140,6 +140,15 @@ document.addEventListener('init', function(event) {
   }
 });
 
+document.addEventListener('init', function(event) {
+  var page = event.target;
+
+  page.querySelector('#testing').onclick = function() {
+    alert("here");
+    document.querySelector('#myNav').pushPage('help.html', {data: {title: 'Do You Need Help?'}});
+  };
+});
+
 document.addEventListener("deviceready", onDeviceReady, false);
 document.addEventListener("backbutton", onBackKeyDown, false);
 
